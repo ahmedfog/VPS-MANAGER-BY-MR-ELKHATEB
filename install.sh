@@ -60,9 +60,9 @@ valid_fun () {
 mkdir /etc/adm-lite
 cd /etc/adm-lite
 echo "cd /etc/adm-lite && bash ./menu" > /bin/menu
-echo "cd /etc/adm-lite && bash ./menu" > /bin/vps
+echo "cd /etc/adm-lite && bash ./menu" > /bin/adm
 chmod +x /bin/menu
-chmod +x /bin/vps
+chmod +x /bin/adm
 cd /etc/adm-lite
 touch /etc/adm-lite/index.html
 wget -i $HOME/lista -o /dev/null
@@ -78,7 +78,7 @@ echo -e "${cor[3]} $(source trans -b pt:${id} "Perfeito Procedimento Feito com S
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "${cor[3]} |∆| ${cor[2]}$(source trans -b pt:${id} "Agora E So Voce Configurar Sua VPS com o Menu Instalacao")"
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
-echo -e "${cor[2]} $(source trans -b pt:${id} "Use os Comandos"): menu, vps"
+echo -e "${cor[2]} $(source trans -b pt:${id} "Use os Comandos"): menu, adm"
 echo -e "${cor[2]} $(source trans -b pt:${id} "e acesse o script, um bom uso!")"
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -ne " \033[0m"
@@ -112,7 +112,7 @@ apt-get install gawk -y > /dev/null 2>&1
 wget -O trans https://raw.githubusercontent.com/ahmedfog/VPS-MANAGER-BY-MR-ELKHATEB/master/Install/trans -o /dev/null 2>&1
 mv -f ./trans /bin/ && chmod 777 /bin/*
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
-echo -e "${cor[2]}SELECT LANGUAGE\n${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠\n${cor[2]}[1]-PT-BR\n[2]-EN\n[3]-ES\n[4]-FR"
+echo -e "${cor[2]}SELECCIONAR IDIOMA\n${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠\n${cor[2]}[1]-PT-BR\n[2]-EN\n[3]-ES\n[4]-FR"
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -ne " OPCION: "; read lang
 case $lang in
@@ -134,13 +134,13 @@ id="es"
 esac
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e ""
-echo -e "${cor[2]} $(source trans -b pt:${id} "")\n\033[1;37m  Script Modificado por: mr elkhateb."
+echo -e "${cor[2]} $(source trans -b pt:${id} "")\n\033[1;37m  Script Modificado por: mr. elkhateb."
 echo -e ""
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
-echo -e "${cor[5]} $(source trans -b pt:${id} "INSTALADOR vps-SCRIPTS") ®"
+echo -e "${cor[5]} $(source trans -b pt:${id} "INSTALADOR ADM-SCRIPTS") ®"
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -e "${cor[3]} $(source trans -b pt:${id} "Iniciando Instalação...")"
 echo -e "${cor[1]}=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠"
 echo -ne "${cor[4]}"
-wget -O lista https://raw.githubusercontent.com/ahmedfog/VPS-MANAGER-BY-MR-ELKHATEBD/master/lista -o /dev/null
+wget -O lista https://raw.githubusercontent.com/ahmedfog/VPS-MANAGER-BY-MR-ELKHATEB/master/lista -o /dev/null
 valid_fun

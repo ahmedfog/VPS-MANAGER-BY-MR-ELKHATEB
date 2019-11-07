@@ -1,33 +1,37 @@
-﻿# VPS-MANAGER-BY ELKHATEB
+﻿# VPS-MANAGER-BY Mr ELKHATEB
 
-# ESTE PROYECTO A SIDO DESCONTINUADO.--
+# by ENG AHMED ELKHATEB.--
 
 ![logo](https://raw.githubusercontent.com/ahmedfog/VPS-MANAGER-BY-MR-ELKHATEB/master/ADM_MANAGER_MOD.jpg)
 
 **VPS-MANAGER-BY ELKHATEB**
 
-## :heavy_exclamation_mark: Requerimientos
+## :يارب العمل يحوز اعجابكم
 
 1 • RECOMENDADO UBUNTU 14.04
 
-2 • USAR DISTRIBUCION NUEVA O FORMATIADA
+2 • NEW OR FORMULATED DISTRIBUTION
 
 ## Installation
 
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/ahmedfog/VPS-MANAGER-BY-MR-ELKHATEB/master/install.sh; chmod +x install.sh; ./install.sh
 
+``
+* NO MINING!
+* WITHOUT KEYS!
+* FREE VERSION
+* WITHOUT TROJAN VIRUS (BOTNET)
+* FILES RELEASED (DECENCRIPTED)
+``
 ```
-* SIN MINERIA! 
-* SIN KEYS! 
-* VERSION GRATUITA 
-* SIN VIRUS TROJANO (BOTNET) 
-* ARCHIVOS LIBERADOS (DECENCRIPTADOS)
-```
+☆ https://t.me/apkbibo ☆
+☆ https://t.me/alhabeeeb ☆
+☆ https://t.me/ALSA7ER_BE ☆
+☆ https://t.me/freenetbe ☆
+☆ https://t.me/alhabeeeb ☆
 
-```
-☆ https://t.me/admmanagerfree ☆
 
-☆ https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ ☆
+☆ https://github.com/ahmedfog ☆
 ```
 
 **By: [ eng ahmed elkhateb ⃘⃤꙰✰ ] VPS**
